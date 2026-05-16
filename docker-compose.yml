@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: estoque-rbac-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: estoque
+    ports:
+      - "5432:5432"
+    volumes:
+      - estoque-rbac-data:/var/lib/postgresql/data
+
+volumes:
+  estoque-rbac-data:
