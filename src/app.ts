@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express from 'express';
+import { authRoutes } from './auth/routes';
 import { errorHandler } from './middlewares/errorHandler';
 
 export function createApp() {
@@ -11,6 +12,8 @@ export function createApp() {
   app.get('/health', (_req, res) => {
     res.json({ status: 'ok' });
   });
+
+  app.use('/auth', authRoutes);
 
   app.use(errorHandler);
 
