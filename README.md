@@ -13,6 +13,7 @@ API de controle de estoque feita com Node.js, TypeScript, Express, Prisma, Postg
 | Banco | PostgreSQL 16 |
 | Auth | JWT + bcrypt |
 | Validacao | Zod |
+| Docs | Swagger/OpenAPI |
 
 ## Como rodar
 
@@ -26,6 +27,13 @@ npm run dev
 ```
 
 A API sobe em `http://localhost:3000`.
+
+Documentacao Swagger:
+
+| Recurso | URL |
+|---|---|
+| Swagger UI | `http://localhost:3000/docs` |
+| OpenAPI JSON | `http://localhost:3000/docs.json` |
 
 Usuarios criados pelo seed:
 
