@@ -1,0 +1,82 @@
+<svg width="1268" height="799" viewBox="0 0 1268 799" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Swagger UI do Sistema de Estoque RBAC API</title>
+  <desc id="desc">Prévia visual da documentação Swagger com endpoints de health, autenticação e produtos.</desc>
+  <rect width="1268" height="799" fill="#1b2021"/>
+  <rect width="1268" height="59" fill="#292f30"/>
+  <circle cx="31" cy="29" r="17" fill="#7DFF25"/>
+  <text x="57" y="33" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#F2F2F2">Swagger</text>
+  <text x="57" y="45" font-family="Arial, Helvetica, sans-serif" font-size="6" font-weight="700" fill="#DDE3E3">SUPPORTED BY SMARTBEAR</text>
+  <circle cx="347" cy="24" r="7" fill="#CFD4D4"/>
+  <rect x="344" y="30" width="6" height="7" rx="2" fill="#CFD4D4"/>
+
+  <text x="15" y="141" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#F4F0EA">Sistema de Estoque RBAC API</text>
+  <rect x="547" y="110" width="44" height="19" rx="9.5" fill="#56616A"/>
+  <text x="556" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">1.0.0</text>
+  <rect x="598" y="110" width="60" height="19" rx="9.5" fill="#008A45"/>
+  <text x="606" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">OAS 3.0</text>
+  <text x="15" y="184" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#FFFFFF">API de controle de estoque com autenticacao JWT e autorizacao RBAC.</text>
+
+  <text x="15" y="281" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Servers</text>
+  <rect x="15" y="285" width="345" height="30" rx="3" stroke="#B8C2C8" stroke-width="2"/>
+  <text x="28" y="305" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">http://localhost:3000 - Local development</text>
+  <path d="M330 297L336 303L342 297" stroke="#CAD1D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1080" y="281" width="151" height="34" rx="3" stroke="#25E6A3" stroke-width="2"/>
+  <text x="1105" y="304" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#25E6A3">Authorize</text>
+  <rect x="1195" y="295" width="12" height="12" rx="2" fill="#25E6A3"/>
+  <path d="M1197 295V292C1197 289 1199 288 1201 288C1204 288 1206 290 1206 292V295" stroke="#25E6A3" stroke-width="2"/>
+
+  <line x1="0" y1="346" x2="1254" y2="346" stroke="#3B4548" stroke-width="2"/>
+
+  <text x="25" y="398" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F4F0EA">Health</text>
+  <path d="M1188 392L1196 384L1204 392" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="15" y="421" width="1217" height="40" rx="3" fill="#14283F" stroke="#2F5F99"/>
+  <rect x="20" y="427" width="81" height="28" rx="2" fill="#4B9EFF"/>
+  <text x="47" y="446" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#00101D">GET</text>
+  <text x="112" y="447" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#FFFFFF">/health</text>
+  <text x="184" y="446" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Check API health</text>
+  <path d="M1202 435L1210 443L1218 435" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="25" y="508" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F4F0EA">Auth</text>
+  <path d="M1188 504L1196 496L1204 504" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15" y1="526" x2="1231" y2="526" stroke="#3B4548"/>
+
+  <rect x="15" y="531" width="1217" height="40" rx="3" fill="#07362F" stroke="#008C73"/>
+  <rect x="20" y="536" width="81" height="28" rx="2" fill="#00C88B"/>
+  <text x="43" y="555" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#00120E">POST</text>
+  <text x="112" y="557" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#FFFFFF">/auth/register</text>
+  <text x="244" y="556" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Register a user</text>
+  <path d="M1202 545L1210 553L1218 545" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="15" y="586" width="1217" height="40" rx="3" fill="#07362F" stroke="#008C73"/>
+  <rect x="20" y="592" width="81" height="28" rx="2" fill="#00C88B"/>
+  <text x="43" y="611" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#00120E">POST</text>
+  <text x="112" y="613" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#FFFFFF">/auth/login</text>
+  <text x="221" y="612" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Login</text>
+  <path d="M1202 600L1210 608L1218 600" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="25" y="674" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F4F0EA">Products</text>
+  <path d="M1188 668L1196 660L1204 668" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15" y1="692" x2="1231" y2="692" stroke="#3B4548"/>
+
+  <rect x="15" y="697" width="1217" height="40" rx="3" fill="#14283F" stroke="#2F5F99"/>
+  <rect x="20" y="703" width="81" height="28" rx="2" fill="#4B9EFF"/>
+  <text x="47" y="722" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#00101D">GET</text>
+  <text x="112" y="723" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#FFFFFF">/products</text>
+  <text x="201" y="722" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">List products</text>
+  <rect x="1178" y="715" width="12" height="10" rx="2" fill="#C7CED1"/>
+  <path d="M1180 715V712C1180 709 1182 708 1184 708C1187 708 1189 710 1189 712V715" stroke="#C7CED1" stroke-width="2"/>
+  <path d="M1202 711L1210 719L1218 711" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="15" y="752" width="1217" height="40" rx="3" fill="#07362F" stroke="#008C73"/>
+  <rect x="20" y="758" width="81" height="28" rx="2" fill="#00C88B"/>
+  <text x="43" y="777" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#00120E">POST</text>
+  <text x="112" y="779" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#FFFFFF">/products</text>
+  <text x="201" y="778" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Create product</text>
+  <rect x="1178" y="770" width="12" height="10" rx="2" fill="#C7CED1"/>
+  <path d="M1180 770V767C1180 764 1182 763 1184 763C1187 763 1189 765 1189 767V770" stroke="#C7CED1" stroke-width="2"/>
+  <path d="M1202 766L1210 774L1218 766" stroke="#C7CED1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1255" y="0" width="13" height="799" fill="#171B1C"/>
+  <rect x="1255" y="17" width="9" height="504" rx="4.5" fill="#8F9293"/>
+  <path d="M1259 7L1263 13H1255L1259 7Z" fill="#A7AAAB"/>
+</svg>
